@@ -6,9 +6,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F5EFE6;
-    color: #2B1B17;
-    line-height: 1.6;
+    background-color: #FBF6EE;
+    background-image: url('https://www.transparenttextures.com/patterns/arabesque.png');
+    color: #3A2C27;
+    line-height: 1.7;
 }
 
 /* Header */
@@ -71,11 +72,13 @@ nav a:hover {
     margin: auto;
 }
 
-.section h2 {
-    font-family: 'Cinzel', serif;
-    font-size: 32px;
-    margin-bottom: 30px;
-    color: #4A0E0E;
+.section h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #B76E00;
+    margin-top: 12px;
 }
 
 .light {
