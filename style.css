@@ -7,7 +7,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FBF6EE;
-    background-image: url('https://www.transparenttextures.com/patterns/arabesque.png');
+    background-image: radial-gradient(circle at top left, rgba(183,110,0,0.08), transparent 40%),
+                      radial-gradient(circle at bottom right, rgba(122,78,29,0.08), transparent 40%);
     color: #3A2C27;
     line-height: 1.7;
 }
