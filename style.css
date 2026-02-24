@@ -74,14 +74,12 @@ nav a:hover {
 }
 
 .section h2::after {
-    content: "";
+    content: "✺";
     display: block;
-    width: 80px;
-    height: 2px;
-    background: #B76E00;
-    margin-top: 12px;
+    font-size: 18px;
+    color: #B76E00;
+    margin-top: 10px;
 }
-
 .light {
     background-color: #FFFFFF;
 }
