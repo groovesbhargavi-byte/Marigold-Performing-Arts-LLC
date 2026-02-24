@@ -6,49 +6,64 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #F8F4EC;
-    color: #1C1C1C;
+    background-color: #F5EFE6;
+    color: #2B1B17;
     line-height: 1.6;
 }
+
+/* Header */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    background-color: #4A0E0E;
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-weight: 700;
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    color: #D4AF37;
 }
 
 nav a {
     margin-left: 30px;
     text-decoration: none;
-    color: #1C1C1C;
-    font-weight: 500;
+    color: #F5EFE6;
+    font-weight: 400;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
-    color: #E6A817;
+    color: #D4AF37;
 }
+
+/* Hero */
 
 .hero {
+    height: 90vh;
+    background: linear-gradient(rgba(74,14,14,0.8), rgba(74,14,14,0.8)),
+                url('https://images.unsplash.com/photo-1594737625785-c0f273bc9f44') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 120px 20px;
 }
 
-.hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 42px;
+.hero-overlay h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    color: #D4AF37;
     margin-bottom: 20px;
 }
+
+.hero-overlay p {
+    font-size: 18px;
+    color: #F5EFE6;
+}
+
+/* Sections */
 
 .section {
     padding: 80px 60px;
@@ -57,25 +72,27 @@ nav a:hover {
 }
 
 .section h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     font-size: 32px;
     margin-bottom: 30px;
-    color: #7A1E1E;
+    color: #4A0E0E;
 }
 
 .light {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .faculty-card {
-    background-color: #F8F4EC;
+    background-color: #F5EFE6;
     padding: 30px;
-    border-radius: 10px;
+    border-left: 5px solid #D4AF37;
 }
+
+/* Footer */
 
 footer {
     text-align: center;
     padding: 30px;
-    background-color: #1C1C1C;
-    color: white;
+    background-color: #4A0E0E;
+    color: #D4AF37;
 }
